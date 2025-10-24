@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: cadetblue;
+            margin: 0;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px; /*Arredondamento da borda */
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.450);
+        }
+        nav {
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.450); /*Aumentar transparência da sombra */
+            background-color: lightblue;
+        }
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+            color: blue;
+            margin-right: 10px; /*Separação entre os Links */
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+             padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.450);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            margin: 0;
+            text-align: center;
+            padding: 3px;
+        }
+        article {
+            background-color: lightblue;
+        }
+        article > aside {
+            background-color: rgb(117, 154, 167);
+        }
+        footer > p { /*Correção de margem quando não ficar do tamanho na tag */
+            margin: 0;
+        }
+        div#bola { /*Criando uma bola */
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            margin: 50px auto; /*Auto centraliza o item */
+            border-radius: 50%; /*50% Arredonda exatamente uma bola */
+        }
+    </style>
+</head>
+<body>
+<header> <!--1°-Header como 2° cabeçalho-->
+        <h1>Meu Site</h1>
+        <nav> <!--Nav pra organização de Links-->
+            <a href="#">Link</a>
+             <a href="#">Link</a>
+              <a href="#">Link</a>
+               <a href="#">Link</a>
+                <a href="#">Link</a>
+        </nav>
+    </header>
+    <main> <!--2°-Seção principal-->
+        <section id="Notícias"> <!--3° section como 3° pra organizar-->
+            <article>
+                <h2>Notícias sobre o mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempore aperiam cupiditate in doloremque, architecto velit deserunt voluptate vitae facilis illo eius eum molestias amet commodi, nulla exercitationem ipsum error.</p>
+                <aside> <!--Relacionado ao principal Ex: (Escrito por).-->
+                    <p>Escrito por Sérgio Filho</p>
+                </aside>
+            </article>
+        </section>
+        <section id="Esportes">
+            <h2>Esportes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quo, earum saepe corrupti ab adipisci alias aliquid itaque inventore odio? Tempora illo quis libero ad optio magni dolorum alias labore.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Sérgio Filho</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1> <!--imagens adaptativas para vários dispositivos-->
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture> <!--permite adiconar mais sources-->
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png"> <!--Menores sempre acima--> <!--Aqui usamos a imagem pequena pra dispositivos menores mesma base de baixo "700" tamanho imagem mais "50px" folga-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--max width define tamanho máximo de  E "1000"  é o tamanho de imagem mais 50px de folga E srcset carrega a imagem menor que vai se adaptar E colocar em type o tipo de imagem Ex:"png"-->
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Adicionando Áudios</h1> 
+    <audio preload="metadata" controls > <!--preload metadata carrega as informações e auto todo o arquivo/ controls add play e loop toca de novo-->
+        <source src="midia/On The Flip - The Grey Room _ Density & Time.mp3" type="audio/mpeg">
+    </audio> <!--3 formatos de arquivo em type: MP3(MPEG) WAV OGG-->
+    <p>Caso seu navegador não consiga reproduzir o aúdio <a href="midia/On The Flip - The Grey Room _ Density & Time.mp3"> Clique Aqui</a>
+    </p>
+</body>
+</html>

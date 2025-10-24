@@ -1,0 +1,190 @@
+@charset "UTF-8" ;
+
+@font-face {
+    font-family: party;
+    src: url(Party\ Birthday.otf);
+
+}
+
+@font-face {
+    font-family: love;
+    src: url(Lover.ttf);
+
+}
+
+body {
+    background-image: url(fundo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'party' ;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 80px 20px 20px 20px;
+    color: rgb(77, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    font-weight: bolder;
+    font-family: 'party';
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+img {
+    margin: auto;
+    margin-top: 15px;
+    width: 600px;
+    height: 300px;
+    display: block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+a {
+    background-color: black;
+    color: white;
+}
+
+.h2da2 {
+    margin-top: 60px;
+}
+
+#comeco {
+     margin: auto;
+    margin-top: 15px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#casa {
+     margin: auto;
+    margin-top: 15px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#sushi {
+     margin: auto;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#moreno {
+     margin: auto;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#yellow {
+     margin: auto;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#zuada {
+     margin: auto;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#camera {
+     margin: auto;
+    margin-top: 15px;
+    width: 800px;
+    height: 400px;
+    display: block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#igreja {
+     margin: auto;
+    margin-top: 15px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#azul {
+     margin: auto;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+#quadro {
+     margin: auto;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+}
+
+.h1especial {
+      font-family: 'love' ;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px 20px 20px 20px;
+    color: rgb(77, 0, 0);
+}
+
+video {
+    margin: auto;
+    display: block;
+    min-width: 300px;
+    max-width: 650px;
+    border-radius: 5px 5px 5px;
+    
+}
+
+

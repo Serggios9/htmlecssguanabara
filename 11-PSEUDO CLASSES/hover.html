@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Texto escondido</title>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        div:hover {
+            color: red;
+        }
+        div:hover > p { /*hover mais a indicação de filho mais a tag */
+            display: block; /*Mostra o texto escondido */
+            color: white;
+            text-align: center;
+            background-color: black;
+            width: 200px;
+        }
+         div > p { /* ">" Siginifica dentro da tag escolhida */
+            display: none;  /*Esconde o conteúdo */
+            text-align: center;
+        }
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Texto Escondido</h1>
+    <p>Passe o mouse sobre o texto</p>
+    <div>
+        Passe o mouse aqui
+        <p>Mostre esse texto</p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>

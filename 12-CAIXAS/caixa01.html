@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title> <!--(Padding vem primeiro(Preenchimento / Border depois (borda visível) / Margin por último (De fora))-->
+    <style>
+        h1 {
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+
+            /* Display podendo variar entre block e inline e inline-block(Personalizável) */
+
+            border-width: 8px;
+            border-style: solid; /*Estilos: Solid / Groove(3d) / dotted(bolinhas) / double(dupla) */
+            border-color: darkslategrey;
+            /*Simplificação: border: 8px solid darkslategrey; (Sempre nessa Ordem) */
+
+            text-align: center;
+            padding-top: 10px; /*Ordem: Cima, direita, baixo, esquerda */
+            padding-right: 10px; 
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*Simplificação: padding: 10px; (Pra valores iguais) (2 Números: 10px 20px fica igual de cima e em baixo (10px) e direita esquerda (20px) )
+
+            /*margin: auto; centraliza a caixa-automático */
+              margin-top: 20px; /*parte de fora da caixa */
+            margin-right: 20px; /*Válido também Usar auto esquerda ou direita e cima e baixo px normal */
+            margin-bottom: 40px;
+            margin-left: 20px;
+            /*Simplificação: margin: 20px 20px 40px 20px; */
+
+            outline-width: 5px; /*Parte entre a border e a margin */
+            outline-style: dashed;
+            outline-color: blueviolet;
+            /*Simplificação: 5px dashed blueviolet; */
+        }
+
+        a {
+            border-width: 5px;
+            border-color: blue;
+            border-style: dashed;
+             padding-top: 10px; /*Ordem: Cima, direita, baixo, esquerda */
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            margin-top: 10px; /*parte de fora da caixa */
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level mas os <a href="#">links são exemplos de caixas inline-level </a> Veremos como funciona</p>
+</body>
+</html>
